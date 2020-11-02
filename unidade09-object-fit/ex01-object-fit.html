@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Curso de CSS3 Avancado</title>
+        <style>
+            body {
+                margin:0;   
+            }
+        
+            div#janela {
+                width:80%;
+                height: 400px;
+                margin: 100px auto;
+                border: 1px solid #000;
+            }
+            
+            div#janela img {
+                width: 100%;
+                height: 100%;
+                
+                /*object fit - none*/ 
+                /* não distorce a imagem */
+                /* object-fit: none; */
+                /* distorce a imagem */
+                /* object-fit: fill;    */
+                object-fit: cover;
+                /* object-fit: scale-down; Reduz em escala, mas não aumenta mais do que o original */
+                /* object-fit: contain; aumenta até o limite da figura */
+                object-position: top center; /* se deixar 'padrão' a mulher perde o cabelo */
+
+    
+            }        
+        </style>
+    </head>
+    <body>
+        <div id="janela">
+            <img src="_img/mulher-computador-600x314.jpg">
+        </div>
+    </body>
+</html>

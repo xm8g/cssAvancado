@@ -1,0 +1,33 @@
+main {
+    width: 90%;
+    text-align: center;
+    box-shadow: none;
+}
+
+article {
+    float: none;
+    padding: 5%;
+}
+
+article p {
+    text-align: justify;
+    display: block;
+}
+
+article img {
+    display: block;
+    text-align: center;
+    float: none;
+    margin: 20px auto;
+}
+
+article h1, article hw {
+    text-shadow: none;
+}
+
+
+
+header {
+    background:url("../_img/topo_mobile_440-centralizado.jpg") center no-repeat;
+    height: 86px;
+}
